@@ -1,6 +1,6 @@
 import './App.css'
 import {RouterProvider, createBrowserRouter } from 'react-router-dom'
-import LogIn from "./Components/Onboarding/login"
+import LogIn from "./Components/Onboarding/loginIn"
 import SignUp from "./Components/Onboarding/signUp"
 import Attendance from './Components/MemberAttendance/Attendance'
 import Payment from './Components/ViewPayment/Viewpayment'
