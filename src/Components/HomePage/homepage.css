@@ -1,0 +1,135 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.Homepage {
+    width: 100%;
+    height: 90%;
+    background-image: url(https://cdn.clearcreekresources.org/wp-content/uploads/2021/09/priscilla-du-preez-nhH1CAzzgj8-unsplash-scaled.jpg);
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.Header {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Header2 {
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hwrapper {
+    width: 90%;
+    height: 100%;
+    /* background-color: white; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hwrapper span {
+    color: blue;
+    font-family: "raleway";
+}
+
+.hwrapper h1 {
+    font-family: "raleway";
+    color: white;
+}
+
+.list {
+    width: 80%;
+    height: 100%;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "raleway";
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.list div:hover{
+    color: blue;
+}
+
+.lgbtn {
+    width: 10%;
+    height: 40%;
+    background-color: white;
+    border: 2px solid blue;
+    font-size: 20px;
+    font-family: "raleway";
+    font-weight: 500;
+    cursor: pointer;
+
+
+}
+
+.Hmid {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: yellowgreen; */
+
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.name h1{
+    color: white;
+    font-family: "raleway";
+    font-size: 30px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: blue; */
+}
+#circleb{
+    color: blue;
+    font-size: 100px;
+}
+.Homepage h1{
+    color: white;
+    /* font-size: small; */
+}
+.hbox{
+  display: flex;
+  align-items: center;
+}
+.Hright h1{
+ font-family: "raleway";
+ color: white;
+    font-family: "raleway";
+    font-size: 50px;
+}

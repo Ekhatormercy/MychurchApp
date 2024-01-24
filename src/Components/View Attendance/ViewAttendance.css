@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.AtteM{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Attwrapper{
+    width: 50%;
+    height: 70%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Attwrapper h1{
+    font-family: "raleway";
+    font-size: 40px;
+    font-weight: 700;
+  
+}
+.attenlist{
+    width: 80%;
+    height: 70%;
+    /* background-color: white; */
+    display: flex;
+  align-items: center;
+ justify-content: space-evenly;
+  flex-direction: column;
+  border-radius: 5px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+.Atten1{
+    width: 100%;
+    height: 23%;
+    /* background-color: rgb(141, 141, 229); */
+    justify-content: center;
+    display: flex;
+  align-items: center;
+}
+.aawrap{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    /* background-color: white; */
+    justify-content: space-between;
+    display: flex;
+  align-items: center;
+}
+.Atten2{
+    width: 100%;
+    height: 23%;
+    /* background-color: rgb(141, 141, 229); */
+    justify-content: space-around;
+    display: flex;
+  align-items: center;
+}
+.attebtn{
+    width: 65%;
+    height: 15%;
+    /* background-color: grey; */
+    justify-content: space-between;
+    display: flex;
+  align-items: center;
+ 
+}
+.bbbtn{
+    width: 30%;
+    height: 50%;
+    border: 2px solid blue;
+    cursor: pointer;
+    background-color: inherit;
+    font-size: 15px;
+    border-radius: 8px;
+}
+.bbtn{
+    width: 45%;
+    height: 50%;
+    border: 2px solid blue;
+    cursor: pointer;
+    background-color: inherit;
+    font-size: 15px;
+    border-radius: 8px;
+}
+.three{
+  color: blue;
+}
+.bbtn:hover{
+    color: white;
+    background-color: blue;
+}
+.bbbtn:hover{
+    color: white;
+    background-color: blue;
+}
