@@ -1,8 +1,8 @@
 import './App.css'
 import {RouterProvider, createBrowserRouter } from 'react-router-dom'
 
-import SignUp from './Components/Onboarding/Signup'
-import Login from './Components/Onboarding/Login'
+import SignUp from './Components/onboarding/Signup'
+import Login from './Components/onboarding/Login'
 import Attendance from './Components/MemberAttendance/Attendance'
 import Payment from './Components/ViewPayment/Viewpayment'
 import Landingpage from './Components/LandingPage/Landingpage'
