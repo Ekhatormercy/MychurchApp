@@ -1,4 +1,4 @@
-import './viewpayment.css'
+import './Viewpayment.css'
 
 const Payment = () =>{
     const SweetMoney = JSON.parse(localStorage.getItem("PastorMoney"))
